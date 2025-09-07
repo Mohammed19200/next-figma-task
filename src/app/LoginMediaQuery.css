@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap");
+
+@media screen and (max-width: 992px) {
+  .image-section {
+    background-position: -248px center, center;
+    background-size: 950px, 402px;
+    height: 30vh;
+  }
+  .hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .images-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+  }
+  .form-section {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+}
+
+@media screen and (min-width: 319px) {
+  .image-section {
+    background-position: -128px center, center;
+    background-size: 505px, 221px;
+    height: 28vh;
+  }
+  .logo-title {
+    width: 200px;
+  }
+  .images-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .form-section h1 {
+    font-size: 28px;
+  }
+  .form-section p {
+    font-size: 12px;
+    width: 264px;
+    margin: auto;
+    padding-bottom: 1rem;
+  }
+  .btn-primary {
+    width: 236px !important;
+    margin: auto;
+  }
+  .input-group {
+    width: 236px;
+    margin: auto;
+    background: #f8f8f8;
+    border: 1px solid #ffffff;
+  }
+}
+
+@media screen and (min-width: 359px) {
+  .image-section {
+    background-position: -109px center, center;
+    background-size: 505px, 221px;
+    height: 28vh;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .logo-title {
+    width: 260px;
+  }
+  .image-section {
+    background-position: -101px center, center;
+    background-size: 505px, 221px;
+    height: 28vh;
+  }
+  .btn-primary {
+    width: 285px !important;
+    margin: auto;
+  }
+  .input-group {
+    width: 285px;
+    margin: auto;
+    background: #f8f8f8;
+    border: 1px solid #ffffff;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  .image-section {
+    background-position: -84px center, center;
+    background-size: 505px, 221px;
+    height: 24vh;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .image-section {
+    background-position: -76px center, center;
+    background-size: 505px, 221px;
+    height: 24vh;
+  }
+}
+
+@media screen and (min-width: 470px) and (max-width: 533.5px) {
+  .image-section {
+    background-position: -40px center, center;
+    background-size: 505px, 221px;
+    height: 24vh;
+  }
+}
+
+@media screen and (min-width: 534px) {
+  .image-section {
+    background-position: -22px center, center;
+    background-size: 505px, 221px;
+    height: 24vh;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .image-section {
+    background-position: 2px center, center;
+    background-size: 505px, 221px;
+    height: 24vh;
+  }
+}
+
+@media screen and (min-width: 599px) {
+  .image-section {
+    background-position: 8px center, center;
+    background-size: 505px, 221px;
+    height: 17vh;
+  }
+  .btn-primary {
+    width: 381px !important;
+  }
+  .form-section h1 {
+    font-size: 40px;
+  }
+
+  .form-section p {
+    font-size: 16px;
+    width: 381px;
+  }
+  .input-group {
+    width: 381px;
+    margin: auto;
+    background: #f8f8f8;
+    border: 1px solid #ffffff;
+  }
+  .images-container {
+    gap: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 639px) {
+  .image-section {
+    background-position: 30px center, center;
+    background-size: 505px, 221px;
+    height: 40vh;
+  }
+  .images-container {
+    gap: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 712px) {
+  .image-section {
+    background-position: 64px center, center;
+    background-size: 505px, 221px;
+    height: 17vh;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 790px) {
+  .image-section {
+    background-position: 66px center, center;
+    background-size: 505px, 221px;
+    height: 24vh;
+  }
+}
+
+@media screen and (min-width: 791px) and (max-width: 872px) {
+  .image-section {
+    background-position: 92px center, center;
+    background-size: 505px, 221px;
+    height: 24vh;
+  }
+}
+
+@media screen and (min-width: 873px) and (max-width: 937.5px) {
+  .image-section {
+    background-position: 110px center, center;
+    background-size: 505px, 221px;
+    height: 24vh;
+  }
+}
+
+@media screen and (min-width: 938px) and (max-width: 991px) {
+  .image-section {
+    background-position: 166px center, center;
+    background-size: 505px, 221px;
+    height: 24vh;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .image-section {
+    background-position: -248px center, center;
+    background-size: 950px, 402px;
+    height: 30vh;
+  }
+  .form-section h1 {
+    font-size: 40px;
+  }
+  .form-section p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .images-container {
+    gap: 3.5rem;
+  }
+  .image-section {
+    background-position: -239px center, center;
+    background-size: 950px, 402px;
+    height: 30vh;
+  }
+  .form-section p {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  .image-section {
+    background-position: -219px center, center;
+    background-size: 950px, 402px;
+    height: 30vh;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .image-section {
+    background-position: -148px center, center;
+    background-size: 950px, 402px;
+    height: 30vh;
+  }
+  .form-section h1 {
+    font-size: 56px;
+  }
+
+  .form-section p {
+    font-size: 18px;
+    width: 381px;
+  }
+  .btn-primary {
+    width: 381px !important;
+  }
+  .logo-title {
+    width: 330px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .image-section {
+    background-position: -366px center, center;
+    background-size: 1437px, 610px;
+    height: 55vh;
+  }
+  .images-container {
+    gap: 0.5rem;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .image-section {
+    background-position: -325px center, center;
+    background-size: 1437px, 610px;
+    height: 64vh;
+  }
+}
+@media screen and (min-width: 1450px) {
+  .image-section {
+    background-position: -323px center, center;
+    background-size: 1437px, 610px;
+    height: 55vh;
+  }
+}
+@media screen and (min-width: 1480px) {
+  .image-section {
+    background-position: -309px center, center;
+    background-size: 1437px, 610px;
+    height: 64vh;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .image-section {
+    background-position: -339px center, center;
+    background-size: 1515px, 644px;
+    height: 55vh;
+  }
+}
+@media screen and (min-width: 1525px) {
+  .image-section {
+    background-position: -278px center, center;
+    background-size: 1400px, 594px;
+    height: 55vh;
+  }
+}
+@media screen and (min-width: 1560px) {
+  .image-section {
+    background-position: -290px center, center;
+    background-size: 1437px, 610px;
+    height: 55vh;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .image-section {
+    background-position: -259px center, center;
+    background-size: 1437px, 610px;
+    height: 55vh;
+  }
+}
+@media screen and (min-width: 1780px) {
+  .image-section {
+    background-position: -222px center, center;
+    background-size: 1437px, 610px;
+    height: 64vh;
+  }
+}
+@media screen and (min-width: 1890px) {
+  .image-section {
+    background-position: -190px center, center;
+    background-size: 1437px, 610px;
+    height: 64vh;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .image-section {
+    background-position: -170px center, center;
+    background-size: 1437px, 610px;
+    height: 64vh;
+  }
+}
+@media screen and (min-width: 2100px) {
+  .image-section {
+    background-position: -140px center, center;
+    background-size: 1437px, 610px;
+    height: 60vh;
+  }
+}
+@media screen and (min-width: 2200px) {
+  .image-section {
+    background-position: -103px center, center;
+    background-size: 1437px, 610px;
+    height: 60vh;
+  }
+}
+@media screen and (min-width: 2300px) {
+  .image-section {
+    background-position: -74px center, center;
+    background-size: 1437px, 610px;
+    height: 60vh;
+  }
+}
+@media screen and (min-width: 2400px) {
+  .image-section {
+    background-position: -45px center, center;
+    background-size: 1437px, 610px;
+    height: 60vh;
+  }
+}
+@media screen and (min-width: 2500px) {
+  .image-section {
+    background-position: -15px center, center;
+    background-size: 1437px, 610px;
+    height: 34vh;
+  }
+}
+@media screen and (min-width: 2600px) {
+  .image-section {
+    background-position: 14px center, center;
+    background-size: 1437px, 610px;
+  }
+}
+@media screen and (min-width: 2700px) {
+  .image-section {
+    background-position: 43px center, center;
+    background-size: 1437px, 610px;
+  }
+}
+@media screen and (min-width: 2800px) {
+  .image-section {
+    background-position: 74px center, center;
+    background-size: 1437px, 610px;
+  }
+}
